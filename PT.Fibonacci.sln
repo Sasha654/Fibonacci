@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT.Fibonacci.SecondApp", "PT.Fibonacci.SecondApp\PT.Fibonacci.SecondApp.csproj", "{DB9B4BE8-4ABD-411A-BD74-CDD5E1E0FB46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT.Fibonacci.FirstApp", "PT.Fibonacci.FirstApp\PT.Fibonacci.FirstApp.csproj", "{703DFF8E-B599-4A7F-A790-013F4355B437}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT.Fibonacci.Contract", "PT.Fibonacci.Contract\PT.Fibonacci.Contract.csproj", "{050D756D-EBDD-4668-B3F3-4E87B195BD50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6AED3C9-292C-4DBE-A5AF-95433E4FDBB8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{A6BB0656-632A-4F8B-BD71-410F026186A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{9D8DB8DA-86EF-4B83-9C68-C0BF573B5DFC}"
+	ProjectSection(SolutionItems) = preProject
+		Docker\RabbitMQ\docker-compose.yml = Docker\RabbitMQ\docker-compose.yml
+		Docker\RabbitMQ\down.cmd = Docker\RabbitMQ\down.cmd
+		Docker\RabbitMQ\restart.cmd = Docker\RabbitMQ\restart.cmd
+		Docker\RabbitMQ\start.cmd = Docker\RabbitMQ\start.cmd
+		Docker\RabbitMQ\stop.cmd = Docker\RabbitMQ\stop.cmd
+		Docker\RabbitMQ\up.cmd = Docker\RabbitMQ\up.cmd
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PT.Fibonacci.Rabbit", "PT.Fibonacci.Rabbit\PT.Fibonacci.Rabbit.csproj", "{4F2D89FE-A2D3-4782-8D64-B888AB015E6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9B4BE8-4ABD-411A-BD74-CDD5E1E0FB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9B4BE8-4ABD-411A-BD74-CDD5E1E0FB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9B4BE8-4ABD-411A-BD74-CDD5E1E0FB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9B4BE8-4ABD-411A-BD74-CDD5E1E0FB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703DFF8E-B599-4A7F-A790-013F4355B437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703DFF8E-B599-4A7F-A790-013F4355B437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703DFF8E-B599-4A7F-A790-013F4355B437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703DFF8E-B599-4A7F-A790-013F4355B437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050D756D-EBDD-4668-B3F3-4E87B195BD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050D756D-EBDD-4668-B3F3-4E87B195BD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050D756D-EBDD-4668-B3F3-4E87B195BD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050D756D-EBDD-4668-B3F3-4E87B195BD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2D89FE-A2D3-4782-8D64-B888AB015E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2D89FE-A2D3-4782-8D64-B888AB015E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2D89FE-A2D3-4782-8D64-B888AB015E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2D89FE-A2D3-4782-8D64-B888AB015E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6BB0656-632A-4F8B-BD71-410F026186A5} = {B6AED3C9-292C-4DBE-A5AF-95433E4FDBB8}
+		{9D8DB8DA-86EF-4B83-9C68-C0BF573B5DFC} = {A6BB0656-632A-4F8B-BD71-410F026186A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16608FCB-A2F6-4CF8-B9B6-BEB3C483D128}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿global using Akka.Actor;
+global using JetBrains.Annotations;
+global using Microsoft.Extensions.Logging;
+global using PT.Fibonacci.Contract;
+global using PT.Fibonacci.Rabbit;
+global using PT.Fibonacci.SecondApp.Actors;
+global using System;
+global using System.Threading;
+global using System.Threading.Tasks;
